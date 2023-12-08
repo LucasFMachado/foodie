@@ -14,7 +14,7 @@ export function DishesCard({ title, imageSrc, price }: DishesCardProps) {
     <div className="w-fit lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
       <Image
         src={imageSrc}
-        alt=""
+        alt={`${title} image`}
         width={250}
         height={250}
         className="rounded-xl"

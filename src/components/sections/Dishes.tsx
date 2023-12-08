@@ -2,10 +2,8 @@ import { DishesCard } from '../cards/DishesCard'
 
 export function Dishes() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center px-5 lg:px-32">
-      <h1 className="text-4xl font-semibold text-center pt-12 pb-8">
-        Our Dishes
-      </h1>
+    <div className="min-h-screen flex flex-col justify-center items-center px-12 lg:px-32 pt-12">
+      <h1 className="text-4xl font-semibold text-center pb-8">Our Dishes</h1>
       <div className="flex flex-wrap gap-8 justify-center">
         <DishesCard
           title="Tasty Dish"

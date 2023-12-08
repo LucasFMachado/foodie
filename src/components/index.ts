@@ -1,5 +1,6 @@
 export * from './layout/Navbar'
 export * from './layout/NavbarLink'
+export * from './sections/About'
 export * from './sections/Dishes'
 export * from './sections/Home'
 export * from './shared/Button'
