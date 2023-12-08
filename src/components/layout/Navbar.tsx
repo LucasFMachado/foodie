@@ -4,8 +4,8 @@ import { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenuUnfold } from 'react-icons/ai'
 import { BiChevronDown, BiRestaurant } from 'react-icons/bi'
 
-import { NavBarLink } from '.'
-import { Button } from './Button'
+import { NavBarLink } from '..'
+import { Button } from '../shared/Button'
 
 export function NavBar() {
   const [menu, setmenu] = useState(false)
