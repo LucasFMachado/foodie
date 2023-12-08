@@ -1,3 +1,5 @@
 export * from './Button'
 export * from './Navbar'
 export * from './NavbarLink'
+export * from './sections/Dishes'
+export * from './sections/Home'
