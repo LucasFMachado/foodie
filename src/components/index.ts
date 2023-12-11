@@ -1,3 +1,4 @@
+export * from './layout/Footer'
 export * from './layout/Navbar'
 export * from './layout/NavbarLink'
 export * from './sections/About'
